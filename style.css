@@ -10,10 +10,10 @@ body {
   display: block;
   text-align: right;
 }/* Basic Style */
-.matrix-image img {
+.info-img {
   width: 100%;
 }
-.matrix-image .more-inf {
+.more-inf {
   font-family: fantasy, cursive;
 }
   
@@ -35,14 +35,14 @@ body {
 .task-row-wrapper {
   display: flex;
 }
-ul {
+.todo-list {
   margin:0;
   padding: 0px;
 }
-li, h3 {
+.todo-checklist, .chapter {
   list-style:none;
 }
-input,button{
+.inp-check,button{
   outline:none;
 }
 button {
@@ -58,7 +58,7 @@ button:hover {
   color: #3a3a3a;
 }
 /* Heading */
-h3,
+.chapter,
 label[for="new-task"] {
   color: #333;
   font-weight: 700;
@@ -68,7 +68,7 @@ label[for="new-task"] {
   margin: 0;
   text-transform: uppercase;
 }
-input[type="text"] {
+.inp-text {
   margin: 0;
   font-size: 18px;
   line-height: 18px;
@@ -80,7 +80,7 @@ input[type="text"] {
   font-family: Lato, sans-serif;
   color: #888;
   }
-input[type="text"]:focus {
+.inp-text:focus {
   color: #333;
 }
   
@@ -89,7 +89,7 @@ label[for="new-task"] {
   display: block;
   margin: 0 0 20px;
 }
-input#new-task {
+#new-task {
   width: 318px;
 }
   
@@ -115,7 +115,7 @@ li > label {
   font-size: 18px;
   width: 226px;
 }
-li > input[type="text"] {
+li > .inp-text {
   width: 226px
 }
 button.delete img {
@@ -128,7 +128,7 @@ button.delete img:hover {
 }
   
 /* Completed */
-ul#completed-tasks label {
+#completed-tasks label {
   text-decoration: line-through
   color: #888;
   }
