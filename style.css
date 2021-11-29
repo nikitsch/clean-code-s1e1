@@ -50,11 +50,13 @@ body {
   padding: 0px;
 }
 
-.todo-checklist, .chapter {
+.todo-checklist,
+.chapter {
   list-style: none;
 }
 
-.inp-check,button{
+.inp-check,
+button {
   outline: none;
 }
 
